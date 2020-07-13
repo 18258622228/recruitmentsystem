@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模块</title>
+</head>
+<body>
+<!-- 登录框 -->
+<div style="background-color: white; width: 440px; height: 500px; border-radius: 15px; position: absolute; z-index: 2; margin-left: 750px; margin-top: 150px"
+     id="m1">
+
+    <div style="margin-top: 20px; width: 440px; height: 50px;">
+        <p style="float:left;font-size: 20px; color:#0669CE; margin-left: 80px;line-height: 50px;cursor: pointer;"
+           id="c1">个人登录</p>
+        <p style="float:left;font-size: 20px; color:#0669CE; margin-left: 80px;line-height: 50px;cursor: pointer;"
+           id="c2">企业登录</p>
+        <div style="width:385px;height:3px;background:#E5E5E5;margin-left: 20px;float: left;">
+            <div style="width:90px;height:3px;background:#0669CE;margin-left:60px;float: left;transition:0.3s " id="c3"></div>
+        </div>
+    </div>
+    <!--注册隐藏div-->
+    <div style="width: 440px; height: 160px;" hidden="hidden" id="hide1" >
+        <input type="text"
+               placeholder="请输入手机号" class="frame" id="phone"
+               style="text-indent: 10px;float: left;margin-top:20px;">
+        <div class="sp" style="margin-top: 65px;margin-left: 20px"></div>
+
+        <input type="text"
+               placeholder="请输入手机动态码" class="frame" id="phoneNum"
+               style="text-indent: 10px;float: left;margin-top:35px;">
+        <div class="sp" style="margin-top: 140px;margin-left: 20px"></div>
+    </div>
+    <!--登录div-->
+    <div style="width: 440px; height: 270px;">
+
+        <input type="text"
+               placeholder="请输入用户名" class="frame" id="user"
+               style="text-indent: 10px;float: left;margin-top:30px;">
+        <div class="sp" style="margin-top: 70px;margin-left: 20px"></div>
+
+        <div style="width:440px;height:30px;float: left;">
+            <p style="width:440px;height:40px;color:red;float: left;line-height: 40px;margin-left: 20px;font-size: 10px;display:none"
+               id="p1">&#10006请输入用户名</p>
+        </div>
+        <input type="password"
+               placeholder="请输入密码" class="frame" id="pass"
+               style="text-indent: 10px;float:left;margin-top:20px">
+        <div class="sp" style="margin-top: 160px;margin-left: 20px"></div>
+        <div style="width:440px;height:30px;float: left;">
+            <p style="width:440px;height:40px;color:red;float: left;line-height: 40px;margin-left: 20px;font-size: 10px;display:none"
+               id="p2">&#10006请输入密码</p>
+        </div>
+        <!-- 滑块验证 -->
+        <div class="drag" style="float: left;margin-left: 20px;margin-top: 20px">
+            <div class="bg"></div>
+            <div class="text">请拖动滑块验证</div>
+            <div class="btn">&gt;&gt;</div>
+        </div>
+        <div style="width:440px;height:40px;float: left;">
+            <p style="width:440px;height:40px;color:red;float: left;line-height: 40px;margin-left: 20px;font-size: 10px;display:none"
+               id="p3">&#10006请滑动验证</p>
+        </div>
+    </div>
+    <div style="width: 420px; height: 170px;"  id="but1">
+        <div class="log"
+             onclick="load()">登&emsp;录
+        </div>
+        <p style="margin-left: 20px;margin-top: 20px">
+            还不是用户?&emsp;<a
+                href="javascript:void(0)" onclick="zhucePage()"
+                style="color: #0070C2; text-decoration: none">立即注册</a>
+            <a href="#"
+               style="float: right; color: #0070C2; text-decoration: none; margin-right: 20px">忘记密码</a>
+        </p>
+    </div>
+    <div style="width: 420px; height: 170px;" hidden="hidden" id="but2">
+        <div class="log"
+             onclick="zhuce()">注&emsp;册
+        </div>
+        <p style="margin-left: 20px;margin-top: 20px">
+            已经注册?&emsp;<a
+                href="javascript:void(0)" onclick="loadPage()"
+                style="color: #0070C2; text-decoration: none">立即登录</a>
+            <a href="#"
+               style="float: right; color: #0070C2; text-decoration: none; margin-right: 20px">忘记密码</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

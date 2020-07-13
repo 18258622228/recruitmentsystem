@@ -41,6 +41,13 @@ public class AdminController {
         return "error";
     }
 
-
+    @RequestMapping("/index")
+    public String show(){
+        return "login";
+    }
+    @RequestMapping("/toHome")
+    public String toHome(){
+        return "home";
+    }
 
 }
