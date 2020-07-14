@@ -1,5 +1,7 @@
 package com.igeek.rs.entity;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 
 /**

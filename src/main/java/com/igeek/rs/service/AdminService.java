@@ -56,8 +56,6 @@ public interface AdminService {
 
     /**
      * 登录
-     * @param username  用户名
-     * @param password  密码
      * @return
      */
     Admin login(Admin admin);

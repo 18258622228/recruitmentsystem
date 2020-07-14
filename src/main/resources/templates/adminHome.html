@@ -51,56 +51,46 @@
             <ul class="layui-nav layui-nav-tree"  lay-filter="test">
                 <li class="layui-nav-item ">
                     <!--layui-nav-itemed默认展开导航面板，加入li的class中即可-->
-                    <a class="" href="javascript:;" ><i class="layui-icon layui-icon-template-1"></i> 档案管理</a>
+                    <a class="" href="javascript:;" ><i class="layui-icon layui-icon-template-1"></i>普通用户信息管理</a>
                     <dl class="layui-nav-child">
-                        <!--layui-icon layui-icon-template-1-->
-                        <dd><a href="javascript:;" data-id="1" data-title="管理区" data-url="http://localhost:8080/yunhan/meter_reading" class="site-demo-active" data-type="tabAdd">管理区</a></dd>
-                        <dd><a href="javascript:;" data-id="2" data-title="房间档案" data-url="http://localhost:8080/test/admin" class="site-demo-active" data-type="tabAdd">房间档案</a></dd>
-                        <dd><a href="javascript:;" data-id="3" data-title="车位档案" data-url="http://localhost:8080/test/role" class="site-demo-active" data-type="tabAdd">车位档案</a></dd>
-                        <dd><a href="javascript:;" data-id="4" data-title="客户档案" data-url="http://localhost:8080/test/admin" class="site-demo-active" data-type="tabAdd">客户档案</a></dd>
+                        <dd><a href="javascript:;" data-id="1" data-title="用户管理" data-url="../admin/toUserList" class="site-demo-active" data-type="tabAdd">普通用户管理</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="javascript:;" class=""><i class="layui-icon layui-icon-edit"></i> 计费管理</a>
+                    <a href="javascript:;" class=""><i class="layui-icon layui-icon-edit"></i> 企业用户信息管理</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-id="5" data-title="智能计费" data-url="http://localhost:8080/test/admin" class="site-demo-active" data-type="tabAdd">智能计费</a></dd>
-                        <dd><a href="javascript:;" data-id="6" data-title="收费项目" data-url="http://localhost:8080/test/admin" class="site-demo-active" data-type="tabAdd">收费项目</a></dd>
-                        <dd><a href="javascript:;" data-id="7" data-title="收费标准" data-url="http://localhost:8080/test/admin" class="site-demo-active" data-type="tabAdd">收费标准</a></dd>
+                        <dd><a href="javascript:;" data-id="2" data-title="企业管理" data-url="../admin/toCompanyList" class="site-demo-active" data-type="tabAdd">企业管理</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="javascript:;" class=""><i class="layui-icon layui-icon-survey"></i>抄表管理</a>
+                    <a href="javascript:;" class=""><i class="layui-icon layui-icon-survey"></i>招聘信息管理</a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" data-id="8" data-title="仪表抄表" data-url="http://localhost:8080/yunhan/meter_reading" class="site-demo-active" data-type="tabAdd">仪表抄表</a></dd>
                         <dd><a href="javascript:;" data-id="9" data-title="抄表费用" data-url="http://localhost:8080/yunhan/meter_charge" class="site-demo-active" data-type="tabAdd">抄表费用</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="javascript:;" class=""><i class="layui-icon layui-icon-tabs"></i>应收管理</a>
+                    <a href="javascript:;" class=""><i class="layui-icon layui-icon-tabs"></i>个人信息维护</a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" data-id="10" data-title="应收账单" data-url="http://localhost:8080/yunhan/receivables" class="site-demo-active" data-type="tabAdd">应收账单</a></dd>
                         <dd><a href="javascript:;" data-id="11" data-title="应收明细" data-url="http://localhost:8080/yunhan/receivables" class="site-demo-active" data-type="tabAdd">应收明细</a></dd>
                         <dd><a href="javascript:;" data-id="12" data-title="应收减免" data-url="http://localhost:8080/test/admin" class="site-demo-active" data-type="tabAdd">应收减免</a></dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-rmb"></i>收费管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-form"></i>报表中心</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-user"></i>客户服务</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-diamond"></i>品质巡检</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-auz"></i>门禁管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-flag"></i>安保巡更</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-console"></i>设备管理</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-set-sm"></i>设备巡检</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-group"></i>单位组织</a></li>
-                <li class="layui-nav-item"><a href="javascript:;" class=""><i class="layui-icon layui-icon-website"></i>系统管理</a></li>
             </ul>
         </div>
     </div>
+
       <!--显示生成的选项卡界面-->
 
         <div class="layui-tab" lay-filter="demo" lay-allowclose="true" style="margin-left: 200px;">
-            <ul class="layui-tab-title"></ul>
-            <div class="layui-tab-content"></div>
+            <ul class="layui-tab-title">
+
+            </ul>
+            <div class="layui-tab-content">
+                <h2 style="text-align: center">欢迎进入招聘后台管理</h2>
+            </div>
+
         </div>
 
 
@@ -109,7 +99,7 @@
         © yunhan.com - 招聘后台管理系统
     </div>
 </div>
-<script type="text/javascript" th:src="@{/js/layui.all.js}"></script>
+<script type="text/javascript" th:src="@{/js/admin/layui.all.js}"></script>
 
 <script>
     layui.use(['element', 'layer', 'jquery'], function () {

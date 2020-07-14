@@ -106,29 +106,29 @@
     <div style="width: 440px; color: white;bottom: 0;margin-left: 755px;position: absolute; z-index: 3">
         Copyright © 2020 zhipin.com 京ICP备14013441号-5</div>
 </div>
-<script src="/js/index.js"></script>
-<script src="/js/YZ.js"></script>
+<script src="/js/login/index.js"></script>
+<script src="/js/login/YZ.js"></script>
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript">
     $(function () {
-        $("#user").focus(function () {
-            $(".sp:eq(0)").css("background-position","right");
+        $("#username").focus(function () {
+            $(".sp:eq(2)").css("background-position","right");
         })
-        $("#user").blur(function () {
-            $(".sp:eq(0)").css("background-position","left");
-            var user=$("#user").val();
+        $("#username").blur(function () {
+            $(".sp:eq(2)").css("background-position","left");
+            var user=$("#username").val();
             if(user == "" || user == null){
                 $("#p1").css("display","block");
             }else{
                 $("#p1").css("display","none");
             }
         })
-        $("#pass").focus(function () {
-            $(".sp:eq(1)").css("background-position","right");
+        $("#password").focus(function () {
+            $(".sp:eq(3)").css("background-position","right");
         })
-        $("#pass").blur(function () {
-            $(".sp:eq(1)").css("background-position","left");
-            var pass=$("#pass").val();
+        $("#password").blur(function () {
+            $(".sp:eq(3)").css("background-position","left");
+            var pass=$("#password").val();
             if(pass == "" || pass == null){
                 $("#p2").css("display","block");
             }else{

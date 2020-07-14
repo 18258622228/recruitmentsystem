@@ -1,11 +1,11 @@
 package com.igeek.rs.service.impl;
 
+import com.igeek.rs.mapper.AdminDao;
 import com.igeek.rs.entity.Admin;
-import com.igeek.rs.dao.AdminDao;
 import com.igeek.rs.service.AdminService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -16,7 +16,7 @@ import java.util.List;
  */
 @Service
 public class AdminServiceImpl implements AdminService {
-    @Resource
+    @Autowired(required = false)
     private AdminDao adminDao;
 
     /**
@@ -25,7 +25,6 @@ public class AdminServiceImpl implements AdminService {
      * @param id 主键
      * @return 实例对象
      */
-    @Override
     public Admin queryById(Integer id) {
         return this.adminDao.queryById(id);
     }
@@ -37,7 +36,6 @@ public class AdminServiceImpl implements AdminService {
      * @param limit 查询条数
      * @return 对象列表
      */
-    @Override
     public List<Admin> queryAllByLimit(int offset, int limit) {
         return this.adminDao.queryAllByLimit(offset, limit);
     }
@@ -48,7 +46,6 @@ public class AdminServiceImpl implements AdminService {
      * @param admin 实例对象
      * @return 实例对象
      */
-    @Override
     public Admin insert(Admin admin) {
         this.adminDao.insert(admin);
         return admin;
@@ -60,7 +57,6 @@ public class AdminServiceImpl implements AdminService {
      * @param admin 实例对象
      * @return 实例对象
      */
-    @Override
     public Admin update(Admin admin) {
         this.adminDao.update(admin);
         return this.queryById(admin.getId());
@@ -72,12 +68,10 @@ public class AdminServiceImpl implements AdminService {
      * @param id 主键
      * @return 是否成功
      */
-    @Override
     public boolean deleteById(Integer id) {
         return this.adminDao.deleteById(id) > 0;
     }
 
-    @Override
     public Admin login(Admin admin) {
         Admin ad = adminDao.findNameAndPwd(admin);
         return ad;

@@ -2,6 +2,7 @@ package com.igeek.rs.controller;
 
 import com.igeek.rs.entity.Admin;
 import com.igeek.rs.service.AdminService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -21,11 +22,10 @@ public class AdminController {
     /**
      * 服务对象
      */
-    @Resource
+    @Autowired
     private AdminService adminService;
 
     @PostMapping("/login")
-    @ResponseBody
     public String login(Admin admin,
                         HttpSession session,
                         Model model){
@@ -37,7 +37,7 @@ public class AdminController {
             session.setAttribute("username", username);
             session.setAttribute("loginTime", System.currentTimeMillis());
             System.out.println(System.currentTimeMillis());
-            return "../toHome";
+            return "forward:toAdminHome";
         }
         model.addAttribute("msg", "用户名或密码错误，请重新登录");
         return "error";
@@ -54,6 +54,14 @@ public class AdminController {
     @RequestMapping("/toUserHome")
     public String toUserHome(){
         return "userHome";
+    }
+    @RequestMapping("/toUserList")
+    public String torHome1(){
+        return "UserList";
+    }
+    @RequestMapping("/toCompanyList")
+    public String torHome2(){
+        return "CompanyList";
     }
 
 }

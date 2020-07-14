@@ -1,9 +1,11 @@
 package com.igeek.rs;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@MapperScan(basePackages = {"com.igeek.rs.mapper"})
 public class RecruitmentsystemApplication {
 
     public static void main(String[] args) {
