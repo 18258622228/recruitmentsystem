@@ -68,9 +68,9 @@
     </delete>
 
     <!--登录-->
-    <select id="findNameAndPwd" resultType="AdminMap">
+    <select id="findNameAndPwd" resultType="Admin" parameterType="Admin">
         select username,password
-        from recruitmentsystem.admin
+        from admin
         <where>
             <if test="username != null and username != ''">
                 and username = #{username}

@@ -60,5 +60,5 @@ public interface AdminService {
      * @param password  密码
      * @return
      */
-    Admin login(String username, String password);
+    Admin login(Admin admin);
 }

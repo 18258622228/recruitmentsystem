@@ -98,8 +98,10 @@
     <canvas id="mineCanvas"></canvas>
     <img src="/img/reg.png"
          style="width: 1900px; height:1000px;position: absolute; z-index: 1">
-    <!--登录-->
-    <div th:replace="common/module :: #m1" id="m1"></div>
+    <form th:action="@{/admin/login}" method="post" id="f">
+        <!--登录-->
+        <div th:replace="common/module :: #m1" id="m1"></div>
+    </form>
 
     <div style="width: 440px; color: white;bottom: 0;margin-left: 755px;position: absolute; z-index: 3">
         Copyright © 2020 zhipin.com 京ICP备14013441号-5</div>
@@ -146,15 +148,14 @@
 
 
     function load() {
-        var user=$("#user").val();
-        var pass=$("#pass").val();
+        var user=$("#username").val();
+        var pass=$("#password").val();
         if(success){
             $("#p3").css("display","none");
             if((user == ""|| user == null ) && (pass == "" || pass == null)){
                 alert("失败")
             }else{
-                window.location="/NCI/load.action?username="+ user + "&password=" + pass;
-
+                $("#f").submit();
             }
         } else {
             $("#p3").css("display","block");

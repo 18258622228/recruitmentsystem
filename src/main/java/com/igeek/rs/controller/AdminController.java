@@ -24,18 +24,20 @@ public class AdminController {
     @Resource
     private AdminService adminService;
 
-    @RequestMapping("/login")
+    @PostMapping("/login")
     @ResponseBody
-    public String login(@RequestParam("username") String username,
-                        @RequestParam("password") String password,
+    public String login(Admin admin,
                         HttpSession session,
                         Model model){
-        Admin admin = adminService.login(username, password);
-        if (admin != null) {
+        System.out.println(admin);
+        String username=admin.getUsername();
+        String password=admin.getPassword();
+        Admin ad = adminService.login(admin);
+        if (ad != null) {
             session.setAttribute("username", username);
             session.setAttribute("loginTime", System.currentTimeMillis());
             System.out.println(System.currentTimeMillis());
-            return "ok";
+            return "../toHome";
         }
         model.addAttribute("msg", "用户名或密码错误，请重新登录");
         return "error";
@@ -45,9 +47,13 @@ public class AdminController {
     public String show(){
         return "login";
     }
-    @RequestMapping("/toHome")
-    public String toHome(){
-        return "home";
+    @RequestMapping("/toAdminHome")
+    public String toAdminHome(){
+        return "adminHome";
+    }
+    @RequestMapping("/toUserHome")
+    public String toUserHome(){
+        return "userHome";
     }
 
 }

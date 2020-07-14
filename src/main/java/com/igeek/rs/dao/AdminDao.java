@@ -1,6 +1,7 @@
 package com.igeek.rs.dao;
 
 import com.igeek.rs.entity.Admin;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-07-13 15:07:04
  */
+@Mapper
 public interface AdminDao {
 
     /**
@@ -69,5 +71,5 @@ public interface AdminDao {
      * @param password  密码
      * @return
      */
-    Admin findNameAndPwd(@Param("username") String username, @Param("password") String password);
+    Admin findNameAndPwd(Admin admin);
 }

@@ -1,437 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8662b527-1b56-44c8-a069-ce40371d209d" name="Default Changelist" comment="添加登录注册页面+管理员页面">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/eye1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/eye2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/load.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/reg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/Chart.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/YZ.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/feather.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.slim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/mouseclick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/popper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/banner.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/module.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/._index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/._comment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/comment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/contform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/listform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/tags.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/tagsform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/listform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/replys.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/replysform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/mall/category.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/mall/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/mall/specs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/message/detail.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/message/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/workorder/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/workorder/listform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/anim/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/auxiliar/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/badge/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/button/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/carousel/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/code/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/colorpicker/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/flow/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/form/element.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/form/group.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/all.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/mobile-pc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/mobile.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/speed-dial.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/stack.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/demo1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/demo2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/special-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/theme.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/layer/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/layer/special-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/layer/theme.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laypage/demo1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laypage/demo2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laypage/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laytpl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/nav/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/panel/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/progress/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/rate/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/slider/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/auto.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/cellEdit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/cellEvent.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/checkbox.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/data.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/fixed.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/height.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/initSort.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/onrow.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/operate.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/page.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/parseData.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/radio.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/reload.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/resetPage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/simple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/static.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/style.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/thead.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/toolbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/tostatic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/totalRow.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/tabs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/temp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/timeline/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/upload/demo1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/upload/demo2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/upload/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/util/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/home/console.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/home/homepage1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/home/homepage2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/iframe/layer/iframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/echarts/bar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/echarts/line.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/echarts/map.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/im/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/system/email.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/system/website.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/user/info.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/user/password.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/get.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/more.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/theme.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/addresslist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/caller.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/goodslist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/msgboard.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/personalpage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/temp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/tips/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/tips/error.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/adminform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/role.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/roleform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/forget.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/reg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/user/list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/user/userform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/console/prograss.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/console/top-card.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/console/top-search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/content/comment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/content/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/content/tags.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/forum/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/forum/replys.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/layer/photos.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/layim/getList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/layim/getMembers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/mall/order.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/menu1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/detail.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/direct.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/new.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/notice.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/demo2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/demo3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/user.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/user30.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/upload/demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/forget.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/logout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/reg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/resetpass.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/session.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/sms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/useradmin/mangadmin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/useradmin/role.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/useradmin/webuser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/workorder/demo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/layui.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/code.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/laydate/default/font.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/chatlog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/find.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/getmsg.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/msgbox.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/layim.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/mobile/layim.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/logo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/voice/default.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/17.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/18.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/19.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/20.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/22.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/23.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/25.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/26.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/27.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/28.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/29.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/30.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/31.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/32.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/33.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/34.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/35.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/36.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/37.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/38.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/39.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/40.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/41.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/42.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/43.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/44.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/45.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/46.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/47.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/48.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/49.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/51.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/52.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/53.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/54.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/55.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/56.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/57.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/58.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/59.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/60.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/61.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/62.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/63.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/65.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/66.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/67.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/68.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/69.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/70.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/71.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/all-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/colorpicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/flow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/laydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/layedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/layim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/laypage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/laytpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/layer-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/layim-mobile-open.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/layim-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/upload-mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/zepto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/rate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/layui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/admin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/extend/echarts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/extend/echartsTheme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/view.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/console.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/contlist.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/forum.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/im.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/message.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/sample.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/senior.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/set.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/user.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/useradmin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/workorder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/admin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/bg-none.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/layui-logo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/logo-black.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/template/character.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/template/huge.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/template/portrait.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/template.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/layim/demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/get.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/more.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/theme.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/说明.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+    <list default="true" id="6793f249-5125-47cb-8d4f-3bb02d8d255f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/config/MyConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/admin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/userHome.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/recruitmentsystem-admin.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb59b486-85b7-401a-95f4-eafbc687c58b.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb59b486-85b7-401a-95f4-eafbc687c58b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/generator-config.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/recruitmentsystem.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/AdminService.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/AdminService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/impl/AdminServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/impl/AdminServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/banner.txt" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/module.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/module.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -441,70 +38,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recruitmentsystem@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recruitmentsystem@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recruitmentsystem@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="recruitmentsystem: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="recruitmentsystem@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="recruitmentsystem: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="RecruitmentsystemApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/module.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="147">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -512,28 +52,12 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Mybatis_Mapper" />
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -550,22 +74,13 @@
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="MavenRunner">
-    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="425" />
     <option name="y" value="48" />
     <option name="width" value="1399" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectId" id="1ecUbwhkFhihWS0bItisCw24JFv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -582,6 +97,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -606,44 +124,27 @@
               <item name="recruitmentsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recruitmentsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="recruitmentsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/webproject" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\recruitmentsystem\src\main\resources" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -658,29 +159,93 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration name="RecruitmentsystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.igeek.rs.RecruitmentsystemApplication" />
       <module name="recruitmentsystem" />
       <envs />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:recruitmentsystem@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -690,53 +255,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8662b527-1b56-44c8-a069-ce40371d209d" name="Default Changelist" comment="" />
-      <created>1594620450076</created>
+      <changelist id="6793f249-5125-47cb-8d4f-3bb02d8d255f" name="Default" comment="" />
+      <created>1594693168458</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1594620450076</updated>
-      <workItem from="1594620453152" duration="12513000" />
-      <workItem from="1594644756180" duration="844000" />
+      <updated>1594693168458</updated>
+      <workItem from="1594693169790" duration="470000" />
     </task>
-    <task id="LOCAL-00001" summary="环境搭建，管理员类">
-      <created>1594621617915</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1594621617915</updated>
-    </task>
-    <task id="LOCAL-00002" summary="环境搭建，管理员类">
-      <created>1594622265058</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1594622265058</updated>
-    </task>
-    <task id="LOCAL-00003" summary="admin 管理员 crud">
-      <created>1594624103922</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1594624103922</updated>
-    </task>
-    <task id="LOCAL-00004" summary="login">
-      <created>1594635257761</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1594635257761</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="844000" />
+    <option name="totallyTimeSpent" value="470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="425" y="48" width="1399" height="1000" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -744,12 +280,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24943988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -772,108 +308,34 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="环境搭建，管理员类" />
-    <MESSAGE value="admin 管理员 crud" />
-    <MESSAGE value="login" />
-    <MESSAGE value="添加登录注册页面+管理员页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加登录注册页面+管理员页面" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="565" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594620848988">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="565" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1594620848988" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1594627728071">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1594627728071" />
-    <state x="443" y="214" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594624018733">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="443" y="214" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1594624018733" />
-    <state x="443" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594623983744">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="443" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1594623983744" />
-    <state x="585" y="23" key="CommitChangelistDialog2" timestamp="1594635256271">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="585" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1594635256271" />
-    <state x="753" y="168" key="FileChooserDialogImpl" timestamp="1594635508753">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="753" y="168" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1594635508753" />
-    <state x="798" y="338" width="373" height="171" key="Github.CreateGistDialog" timestamp="1594620713550">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="798" y="338" width="373" height="171" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1594620713550" />
-    <state x="819" y="319" width="307" height="281" key="Github.ShareDialog" timestamp="1594635551967">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="819" y="319" width="307" height="281" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1594635551967" />
-    <state x="380" y="168" key="IDE.errors.dialog" timestamp="1594623621277">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="380" y="168" key="IDE.errors.dialog/0.0.1600.860@0.0.1600.860" timestamp="1594623621277" />
-    <state x="453" y="2" key="SettingsEditor" timestamp="1594639471227">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="453" y="2" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594639471227" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1594624538874">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1594624538874" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/module.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="147">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/YZ.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

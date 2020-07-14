@@ -14,7 +14,7 @@ import java.util.List;
  * @author makejava
  * @since 2020-07-13 15:07:05
  */
-@Service("adminService")
+@Service
 public class AdminServiceImpl implements AdminService {
     @Resource
     private AdminDao adminDao;
@@ -78,8 +78,9 @@ public class AdminServiceImpl implements AdminService {
     }
 
     @Override
-    public Admin login(String username, String password) {
-        return null;
+    public Admin login(Admin admin) {
+        Admin ad = adminDao.findNameAndPwd(admin);
+        return ad;
     }
 
 
