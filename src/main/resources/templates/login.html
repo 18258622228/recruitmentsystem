@@ -139,9 +139,11 @@
 
         $("#c1").click(function () {
             $("#c3").css("margin-left","60px");
+            $("#username").replaceWith("<input type='text' placeholder='请输入用户名' class='frame' id='username' name='username' style='text-indent: 10px;float: left;margin-top:30px;'>");
         })
         $("#c2").click(function () {
             $("#c3").css("margin-left","210px");
+            $("#username").replaceWith("<input type='text' placeholder='请输入企业邮箱' class='frame' id='username' name='email' style='text-indent: 10px;float: left;margin-top:30px;'>");
         })
     })
 
@@ -155,6 +157,7 @@
             if((user == ""|| user == null ) && (pass == "" || pass == null)){
                 alert("失败")
             }else{
+
                 $("#f").submit();
             }
         } else {

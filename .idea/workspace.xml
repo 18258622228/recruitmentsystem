@@ -2,368 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6793f249-5125-47cb-8d4f-3bb02d8d255f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/list.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/layui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/roleList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/tools.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/CompanyList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/UserList.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/CompanyUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/CompanyHome.html" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/recruitmentsystem.iml" afterPath="$PROJECT_DIR$/recruitmentsystem.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/AdminService.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/AdminService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/impl/AdminServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/impl/AdminServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/Chart.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/YZ.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login/YZ.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/feather.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.slim.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.slim.min.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/layui.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/mouseclick.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login/mouseclick.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/popper.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/._index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/._comment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/comment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/contform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/listform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/tags.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/content/tagsform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/listform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/replys.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/forum/replysform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/mall/category.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/mall/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/mall/specs.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/message/detail.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/message/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/workorder/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/workorder/listform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/app/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/anim/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/auxiliar/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/badge/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/button/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/carousel/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/code/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/colorpicker/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/flow/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/form/element.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/form/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/all.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/mobile-pc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/mobile.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/speed-dial.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/grid/stack.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/demo1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/demo2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/special-demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laydate/theme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/layer/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/layer/special-demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/layer/theme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laypage/demo1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laypage/demo2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laypage/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/laytpl/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/nav/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/panel/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/progress/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/rate/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/slider/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/auto.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/cellEdit.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/cellEvent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/checkbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/data.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/fixed.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/form.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/height.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/initSort.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/onrow.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/operate.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/page.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/parseData.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/radio.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/reload.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/resetPage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/static.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/thead.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/toolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/tostatic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/table/totalRow.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/tabs/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/temp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/timeline/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/upload/demo1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/upload/demo2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/upload/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/util/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/component/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/home/console.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/home/homepage1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/home/homepage2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/iframe/layer/iframe.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/echarts/bar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/echarts/line.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/echarts/map.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/im/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/senior/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/system/email.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/system/website.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/user/info.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/user/password.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/set/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/get.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/more.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/theme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/system/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/addresslist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/caller.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/goodslist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/msgboard.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/personalpage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/search.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/temp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/tips/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/tips/error.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/template/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/adminform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/role.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/administrators/roleform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/forget.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/reg.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/user/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/user/userform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/admin_ref/user/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/console/prograss.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/console/top-card.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/console/top-search.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/content/comment.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/content/list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/content/tags.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/forum/list.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/forum/replys.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/layer/photos.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/layim/getList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/layim/getMembers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/mall/order.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/menu.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/menu1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/detail.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/direct.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/new.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/message/notice.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/demo2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/demo3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/user.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/table/user30.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/upload/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/forget.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/login.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/logout.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/reg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/resetpass.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/session.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/user/sms.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/useradmin/mangadmin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/useradmin/role.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/useradmin/webuser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/workorder/demo.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/json/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/layui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/layui.mobile.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/code.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/laydate/default/font.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/find.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/getmsg.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/html/msgbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/layim.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/mobile/layim.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/skin/logo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/css/modules/layim/voice/default.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/font/iconfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/10.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/11.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/12.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/13.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/14.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/15.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/16.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/17.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/18.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/19.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/20.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/21.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/22.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/23.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/24.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/25.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/26.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/27.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/28.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/29.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/3.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/30.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/31.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/32.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/34.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/35.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/36.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/37.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/38.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/39.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/40.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/41.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/42.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/43.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/44.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/46.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/47.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/48.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/49.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/5.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/50.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/51.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/52.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/53.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/54.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/56.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/57.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/58.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/59.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/6.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/60.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/61.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/62.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/63.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/64.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/66.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/67.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/68.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/69.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/7.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/70.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/71.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/8.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/images/face/9.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/all-mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/colorpicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/flow.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/laydate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/layedit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/layim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/laypage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/laytpl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/layer-mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/layim-mobile-open.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/layim-mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/upload-mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/mobile/zepto.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/rate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/slider.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/table.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/tree.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/upload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/lay/modules/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/layui.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/layui/layui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/admin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/extend/echarts.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/extend/echartsTheme.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/lib/view.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/common.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/console.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/contlist.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/forum.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/im.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/message.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/sample.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/senior.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/set.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/user.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/useradmin.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/modules/workorder.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/admin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/login.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/bg-none.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/layui-logo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/logo-black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/template/character.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/template/huge.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/res/template/portrait.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/style/template.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/layim/demo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/get.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/more.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/theme.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/system/说明.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layuiadmin/tpl/说明.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/module.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/module.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userHome.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/userHome.html" />
     </list>
@@ -375,26 +26,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="recruitmentsystem" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecruitmentsystemApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userHome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="20" column="103" lean-forward="false" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+              <folding>
+                <element signature="e#1476#1482#0" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1594782078816" expanded="true" signature="4122:4144" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminHome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adminHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1594780992185" expanded="true" signature="6526:6548" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="424">
+              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding>
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1848#1849#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -403,40 +94,83 @@
       <file leaf-file-name="MyConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/config/MyConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-              <folding>
-                <element signature="e#436#1120#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding>
-                <marker date="1594719908341" expanded="true" signature="565:666" ph="select id, u... admin" />
-                <marker date="1594719908341" expanded="true" signature="764:874" ph="select id, u... admin" />
-                <marker date="1594719908341" expanded="true" signature="1512:1609" ph="insert into recruitmentsystem.admin... " />
-                <marker date="1594719908341" expanded="true" signature="1678:1998" ph="update recruitmentsystem.admin... " />
-                <marker date="1594719908341" expanded="true" signature="2069:2121" ph="delete from recruitmentsystem.admin... " />
-                <marker date="1594719908341" expanded="true" signature="2235:2338" ph="select usern... admin" />
-                <marker date="1594719908341" expanded="true" signature="2235:2349" ph="select usern... admin" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="152" column="26" lean-forward="true" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+              <folding>
+                <marker date="1594794650323" expanded="true" signature="4132:4178" ph="..." />
+                <marker date="1594794650323" expanded="true" signature="4410:4456" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/CompanyUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1507#1508#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/module.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3132#3138#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -447,12 +181,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sp</find>
+      <find>load</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -467,23 +203,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/userHome.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/list.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/UserList.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/AdminList.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/CompanyList.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/service/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/CompanyHome.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/adminHome.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/admin/layui.all.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/userHome.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/common/module.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/CompanyUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -496,9 +236,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\repository" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3/bin" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\Program Files\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -507,9 +247,25 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="407" />
-    <option name="y" value="59" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recruitmentsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recruitmentsystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="487" />
+    <option name="y" value="24" />
     <option name="width" value="1399" />
     <option name="height" value="1009" />
   </component>
@@ -529,10 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -591,7 +343,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rs" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recruitmentsystem" type="b2602c69:ProjectViewProjectNode" />
@@ -600,7 +352,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rs" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recruitmentsystem" type="b2602c69:ProjectViewProjectNode" />
@@ -634,6 +386,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruitmentsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruitmentsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -660,12 +420,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruitmentsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruitmentsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruitmentsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruitmentsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -680,11 +463,12 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Program Files\IDEA-workspace\recruitmentsystem\src\main\java\com\igeek\rs\mapper" />
       <recent name="D:\Program Files\IDEA-workspace\recruitmentsystem\src\main\resources\mapper" />
+      <recent name="D:\Program Files\IDEA-workspace\recruitmentsystem\src\main\java\com\igeek\rs\mapper" />
       <recent name="D:\Program Files\IDEA-workspace\recruitmentsystem\src\main\resources\static\js\load" />
       <recent name="D:\Program Files\IDEA-workspace\recruitmentsystem\src\main\resources\static\js\admin" />
     </key>
@@ -809,7 +593,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594693168458</updated>
-      <workItem from="1594693169790" duration="21109000" />
+      <workItem from="1594693169790" duration="23580000" />
+      <workItem from="1594775874727" duration="10765000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1594693671265</created>
@@ -818,44 +603,60 @@
       <option name="project" value="LOCAL" />
       <updated>1594693671265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="7/14">
+      <created>1594724078836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594724078836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21109000" />
+    <option name="totallyTimeSpent" value="34345000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="487" y="24" width="1399" height="1009" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30923247" sideWeight="0.5021322" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30923247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17803837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32629108" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1807319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -899,7 +700,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xxx" />
-    <option name="LAST_COMMIT_MESSAGE" value="xxx" />
+    <MESSAGE value="7/14" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -908,11 +710,100 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="98" column="39" lean-forward="true" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <element signature="e#1476#1482#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1594782078816" expanded="true" signature="4122:4144" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/CompanyList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/config/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <marker date="1594794650023" expanded="true" signature="562:663" ph="select id, u... admin" />
+            <marker date="1594794650023" expanded="true" signature="761:871" ph="select id, u... admin" />
+            <marker date="1594794650023" expanded="true" signature="1509:1606" ph="insert into recruitmentsystem.admin... " />
+            <marker date="1594794650023" expanded="true" signature="1675:1995" ph="update recruitmentsystem.admin... " />
+            <marker date="1594794650023" expanded="true" signature="2066:2118" ph="delete from recruitmentsystem.admin... " />
+            <marker date="1594794650023" expanded="true" signature="2232:2335" ph="select usern... admin" />
+            <marker date="1594794650023" expanded="true" signature="2232:2346" ph="select usern... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adminHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1594780992185" expanded="true" signature="6526:6548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,55 +811,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin_ref/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4457">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="435" column="19" lean-forward="true" selection-start-line="435" selection-start-column="19" selection-end-line="435" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin_ref/app/forum/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin_ref/app/content/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin_ref/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin_ref/app/forum/list.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin_ref/app/content/list.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/list.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,42 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding>
-            <marker date="1594709738088" expanded="true" signature="3415:3437" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="116" column="41" lean-forward="false" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationTargetException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="506" column="0" lean-forward="false" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="834" column="0" lean-forward="false" selection-start-line="834" selection-start-column="0" selection-end-line="834" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="554" column="0" lean-forward="false" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,25 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adminHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="55" column="75" lean-forward="false" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
-          <folding>
-            <marker date="1594719514797" expanded="true" signature="6526:6548" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/CompanyList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,23 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,65 +955,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding>
-            <marker date="1594719908341" expanded="true" signature="565:666" ph="select id, u... admin" />
-            <marker date="1594719908341" expanded="true" signature="764:874" ph="select id, u... admin" />
-            <marker date="1594719908341" expanded="true" signature="1512:1609" ph="insert into recruitmentsystem.admin... " />
-            <marker date="1594719908341" expanded="true" signature="1678:1998" ph="update recruitmentsystem.admin... " />
-            <marker date="1594719908341" expanded="true" signature="2069:2121" ph="delete from recruitmentsystem.admin... " />
-            <marker date="1594719908341" expanded="true" signature="2235:2338" ph="select usern... admin" />
-            <marker date="1594719908341" expanded="true" signature="2235:2349" ph="select usern... admin" />
+            <marker date="1594794650023" expanded="true" signature="562:663" ph="select id, u... admin" />
+            <marker date="1594794650023" expanded="true" signature="761:871" ph="select id, u... admin" />
+            <marker date="1594794650023" expanded="true" signature="1509:1606" ph="insert into recruitmentsystem.admin... " />
+            <marker date="1594794650023" expanded="true" signature="1675:1995" ph="update recruitmentsystem.admin... " />
+            <marker date="1594794650023" expanded="true" signature="2066:2118" ph="delete from recruitmentsystem.admin... " />
+            <marker date="1594794650023" expanded="true" signature="2232:2335" ph="select usern... admin" />
+            <marker date="1594794650023" expanded="true" signature="2232:2346" ph="select usern... admin" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/mapper/AdminDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/dao/AdminDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="210">
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="1995">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/config/MyConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/CompanyList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/CompanyHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/admin/layui.all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#436#1120#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/adminHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1594780992185" expanded="true" signature="6526:6548" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="424">
+          <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/config/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/module.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3132#3138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="103" lean-forward="false" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+          <folding>
+            <element signature="e#1476#1482#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1594782078816" expanded="true" signature="4122:4144" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/entity/CompanyUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="152" column="26" lean-forward="true" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+          <folding>
+            <marker date="1594794650323" expanded="true" signature="4132:4178" ph="..." />
+            <marker date="1594794650323" expanded="true" signature="4410:4456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/igeek/rs/RecruitmentsystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

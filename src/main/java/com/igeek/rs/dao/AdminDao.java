@@ -1,7 +1,6 @@
-package com.igeek.rs.mapper;
+package com.igeek.rs.dao;
 
 import com.igeek.rs.entity.Admin;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.igeek.rs.service.impl;
 
-import com.igeek.rs.mapper.AdminDao;
+import com.igeek.rs.dao.AdminDao;
 import com.igeek.rs.entity.Admin;
 import com.igeek.rs.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;

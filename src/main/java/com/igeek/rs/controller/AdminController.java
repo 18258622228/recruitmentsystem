@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import java.text.SimpleDateFormat;
 
 /**
  * (Admin)表控制层
@@ -26,9 +27,7 @@ public class AdminController {
     private AdminService adminService;
 
     @PostMapping("/login")
-    public String login(Admin admin,
-                        HttpSession session,
-                        Model model){
+    public String login(Admin admin, HttpSession session, Model model){
         System.out.println(admin);
         String username=admin.getUsername();
         String password=admin.getPassword();
@@ -36,8 +35,10 @@ public class AdminController {
         if (ad != null) {
             session.setAttribute("username", username);
             session.setAttribute("loginTime", System.currentTimeMillis());
-            System.out.println(System.currentTimeMillis());
-            return "forward:toAdminHome";
+            SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+            System.out.println(sdf.format(System.currentTimeMillis()));
+            //return "forward:toAdminHome";
+            return "forward:toUserHome";
         }
         model.addAttribute("msg", "用户名或密码错误，请重新登录");
         return "error";
