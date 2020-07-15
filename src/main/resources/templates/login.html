@@ -150,6 +150,7 @@
 
 
     function load() {
+        var temp=$("input[name='email']").val();
         var user=$("#username").val();
         var pass=$("#password").val();
         if(success){
@@ -157,7 +158,11 @@
             if((user == ""|| user == null ) && (pass == "" || pass == null)){
                 alert("失败")
             }else{
-
+                if(temp == "" || temp==null){
+                    $("#f").attr("th:action","@{/admin/login}")
+                }else{
+                    $("#f").attr("th:action","@{/admin/login}")
+                }
                 $("#f").submit();
             }
         } else {
