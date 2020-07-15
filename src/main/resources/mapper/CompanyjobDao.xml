@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.igeek.rs.dao.CompanyjobDao">
+
+    <resultMap type="com.igeek.rs.entity.Companyjob" id="CompanyjobMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="companyname" column="companyName" jdbcType="VARCHAR"/>
+        <result property="jobsummary" column="jobSummary" jdbcType="VARCHAR"/>
+        <result property="require" column="require" jdbcType="VARCHAR"/>
+        <result property="jobtype" column="jobType" jdbcType="VARCHAR"/>
+        <result property="jobexperience" column="jobExperience" jdbcType="VARCHAR"/>
+        <result property="education" column="Education" jdbcType="VARCHAR"/>
+        <result property="companyid" column="companyId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CompanyjobMap">
+        select
+          id, companyName, jobSummary, require, jobType, jobExperience, Education, companyId
+        from recruitmentsystem.companyjob
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CompanyjobMap">
+        select
+          id, companyName, jobSummary, require, jobType, jobExperience, Education, companyId
+        from recruitmentsystem.companyjob
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CompanyjobMap">
+        select
+          id, companyName, jobSummary, require, jobType, jobExperience, Education, companyId
+        from recruitmentsystem.companyjob
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="companyname != null and companyname != ''">
+                and companyName = #{companyname}
+            </if>
+            <if test="jobsummary != null and jobsummary != ''">
+                and jobSummary = #{jobsummary}
+            </if>
+            <if test="require != null and require != ''">
+                and require = #{require}
+            </if>
+            <if test="jobtype != null and jobtype != ''">
+                and jobType = #{jobtype}
+            </if>
+            <if test="jobexperience != null and jobexperience != ''">
+                and jobExperience = #{jobexperience}
+            </if>
+            <if test="education != null and education != ''">
+                and Education = #{education}
+            </if>
+            <if test="companyid != null">
+                and companyId = #{companyid}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into recruitmentsystem.companyjob(companyName, jobSummary, require, jobType, jobExperience, Education, companyId)
+        values (#{companyname}, #{jobsummary}, #{require}, #{jobtype}, #{jobexperience}, #{education}, #{companyid})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update recruitmentsystem.companyjob
+        <set>
+            <if test="companyname != null and companyname != ''">
+                companyName = #{companyname},
+            </if>
+            <if test="jobsummary != null and jobsummary != ''">
+                jobSummary = #{jobsummary},
+            </if>
+            <if test="require != null and require != ''">
+                require = #{require},
+            </if>
+            <if test="jobtype != null and jobtype != ''">
+                jobType = #{jobtype},
+            </if>
+            <if test="jobexperience != null and jobexperience != ''">
+                jobExperience = #{jobexperience},
+            </if>
+            <if test="education != null and education != ''">
+                Education = #{education},
+            </if>
+            <if test="companyid != null">
+                companyId = #{companyid},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from recruitmentsystem.companyjob where id = #{id}
+    </delete>
+
+</mapper>
