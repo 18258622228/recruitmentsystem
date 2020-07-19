@@ -11,6 +11,11 @@ import java.util.List;
  */
 public interface CompanyjobService {
 
+    //通过用户id查询所有申请
+    List<Companyjob>showApplication(Integer uid);
+    //模糊查询
+    List<Companyjob> searchAll(String query);
+
     /**
      * 通过ID查询单条数据
      *
@@ -51,5 +56,6 @@ public interface CompanyjobService {
      * @return 是否成功
      */
     boolean deleteById(Integer id);
+
 
 }

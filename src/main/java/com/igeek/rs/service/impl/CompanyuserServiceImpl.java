@@ -6,6 +6,7 @@ import com.igeek.rs.service.CompanyuserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import javax.security.auth.login.Configuration;
 import java.util.List;
 
 /**
@@ -70,5 +71,10 @@ public class CompanyuserServiceImpl implements CompanyuserService {
      */
     public boolean deleteById(Integer id) {
         return this.companyuserDao.deleteById(id) > 0;
+    }
+
+    public Companyuser login(Companyuser user) {
+        Companyuser c = companyuserDao.findNameAndPwd(user);
+        return c;
     }
 }

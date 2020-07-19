@@ -14,6 +14,7 @@ public class MyConfig {
             //添加视图解析器
             public void addViewControllers(ViewControllerRegistry registry){
                 registry.addViewController("/").setViewName("login");
+                registry.addViewController("/a").setViewName("adminLogin");
                 registry.addViewController("/index").setViewName("login");
             }
 

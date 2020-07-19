@@ -85,4 +85,15 @@ public class Companyuser implements Serializable {
         this.companyname = companyname;
     }
 
+    @Override
+    public String toString() {
+        return "Companyuser{" +
+                "id=" + id +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", date=" + date +
+                ", companyname='" + companyname + '\'' +
+                '}';
+    }
 }

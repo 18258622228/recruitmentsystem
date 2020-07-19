@@ -12,6 +12,8 @@
         <result property="personinfo" column="personInfo" jdbcType="VARCHAR"/>
     </resultMap>
 
+
+
     <!--查询单个-->
     <select id="queryById" resultMap="UserMap">
         select
@@ -95,4 +97,19 @@
         delete from recruitmentsystem.user where id = #{id}
     </delete>
 
+    <!--登录-->
+    <select id="findNameAndPwd" resultMap="UserMap" parameterType="User">
+        select username,password,id
+        from user
+        WHERE  username= #{username}
+        AND  password= #{password}
+       <!-- <where>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="password != null and password != ''">
+                and password = #{password}
+            </if>
+        </where>-->
+    </select>
 </mapper>

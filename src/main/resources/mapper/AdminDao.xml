@@ -73,7 +73,7 @@
         from admin
         WHERE username =#{username}
         AND  password= #{password}
-       <!-- <where>
+        <!--<where>
             <if test="username != null and username != ''">
                 and username = #{username}
             </if>

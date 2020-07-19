@@ -96,9 +96,9 @@
 <body>
 <div style="width:1900px; height:1000px">
     <canvas id="mineCanvas"></canvas>
-    <img src="/img/reg.png"
+    <img th:src="@{/img/reg.png}"
          style="width: 1900px; height:1000px;position: absolute; z-index: 1">
-    <form th:action="@{/admin/login}" method="post" id="f">
+    <form th:action="@{/user/login}" method="post" id="f">
         <!--登录-->
         <div th:replace="common/module :: #m1" id="m1"></div>
     </form>
@@ -108,7 +108,7 @@
 </div>
 <script src="/js/login/index.js"></script>
 <script src="/js/login/YZ.js"></script>
-<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
 <script type="text/javascript">
     $(function () {
         $("#username").focus(function () {
@@ -139,11 +139,16 @@
 
         $("#c1").click(function () {
             $("#c3").css("margin-left","60px");
-            $("#username").replaceWith("<input type='text' placeholder='请输入用户名' class='frame' id='username' name='username' style='text-indent: 10px;float: left;margin-top:30px;'>");
+            $("#username").attr("name","username");
+            $("#username").attr("placeholder","请输入用户名");
+            $("#p1").html("&#10006请输入用户名");
         })
         $("#c2").click(function () {
             $("#c3").css("margin-left","210px");
-            $("#username").replaceWith("<input type='text' placeholder='请输入企业邮箱' class='frame' id='username' name='email' style='text-indent: 10px;float: left;margin-top:30px;'>");
+            $("#username").attr("name","email");
+            $("#username").attr("placeholder","请输入企业邮箱");
+            $("#p1").html("&#10006请输入企业邮箱");
+           // $("#username").replaceWith("<input type='text' placeholder='请输入企业邮箱' class='frame' id='username' name='email' style='text-indent: 10px;float: left;margin-top:30px;'>");
         })
     })
 
@@ -159,11 +164,12 @@
                 alert("失败")
             }else{
                 if(temp == "" || temp==null){
-                    $("#f").attr("th:action","@{/admin/login}")
+                    alert("user")
+                    $("#f").attr("action","/user/login").submit();
                 }else{
-                    $("#f").attr("th:action","@{/admin/login}")
+                    alert("company")
+                    $("#f").attr("action","/companyuser/login").submit();
                 }
-                $("#f").submit();
             }
         } else {
             $("#p3").css("display","block");

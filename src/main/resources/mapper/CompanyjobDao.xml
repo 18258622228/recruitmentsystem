@@ -13,6 +13,24 @@
         <result property="companyid" column="companyId" jdbcType="INTEGER"/>
     </resultMap>
 
+    <!--通过用户id查询所有申请-->
+    <select id="showApplication" parameterType="Integer"  resultMap="CompanyjobMap">
+        SELECT *
+        FROM  companyjob c ,
+        (SELECT jobid
+        FROM personInfo p
+        where p.userId=#{uid}) pp
+        WHERE c.id=pp.jobid
+    </select>
+
+    <!--查询所有-->
+    <select id="searchAll" parameterType="String" resultMap="CompanyjobMap">
+        SELECT *
+        FROM
+        companyjob j
+        WHERE j.companyname like CONCAT ('%',#{query},'%')
+    </select>
+
     <!--查询单个-->
     <select id="queryById" resultMap="CompanyjobMap">
         select

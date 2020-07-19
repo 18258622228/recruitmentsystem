@@ -52,4 +52,13 @@ public class Personinfo implements Serializable {
         this.companyid = companyid;
     }
 
+    @Override
+    public String toString() {
+        return "Personinfo{" +
+                "id=" + id +
+                ", userid=" + userid +
+                ", jobid=" + jobid +
+                ", companyid=" + companyid +
+                '}';
+    }
 }

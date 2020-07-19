@@ -1,5 +1,6 @@
 package com.igeek.rs.service;
 
+import com.igeek.rs.entity.Admin;
 import com.igeek.rs.entity.User;
 import java.util.List;
 
@@ -51,5 +52,11 @@ public interface UserService {
      * @return 是否成功
      */
     boolean deleteById(Integer id);
+
+    /**
+     * 登录
+     * @return
+     */
+    User login(User user);
 
 }

@@ -1,6 +1,8 @@
 package com.igeek.rs.service;
 
 import com.igeek.rs.entity.Companyuser;
+import com.igeek.rs.entity.User;
+
 import java.util.List;
 
 /**
@@ -51,5 +53,11 @@ public interface CompanyuserService {
      * @return 是否成功
      */
     boolean deleteById(Integer id);
+
+    /**
+     * 登录
+     * @return
+     */
+    Companyuser login(Companyuser user);
 
 }

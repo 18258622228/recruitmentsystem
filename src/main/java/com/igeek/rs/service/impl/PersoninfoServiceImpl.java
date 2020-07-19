@@ -1,5 +1,6 @@
 package com.igeek.rs.service.impl;
 
+import com.igeek.rs.entity.Companyjob;
 import com.igeek.rs.entity.Personinfo;
 import com.igeek.rs.dao.PersoninfoDao;
 import com.igeek.rs.service.PersoninfoService;
@@ -49,9 +50,9 @@ public class PersoninfoServiceImpl implements PersoninfoService {
      * @return 实例对象
      */
     @Override
-    public Personinfo insert(Personinfo personinfo) {
-        this.personinfoDao.insert(personinfo);
-        return personinfo;
+    public Integer insert(Personinfo personinfo) {
+        int result = this.personinfoDao.insert(personinfo);
+        return result;
     }
 
     /**
@@ -76,4 +77,11 @@ public class PersoninfoServiceImpl implements PersoninfoService {
     public boolean deleteById(Integer id) {
         return this.personinfoDao.deleteById(id) > 0;
     }
+
+    //通过实体作为筛选条件查询
+    @Override
+    public List<Personinfo> queryAll(Personinfo personinfo) {
+        return personinfoDao.queryAll(personinfo);
+    }
+
 }

@@ -108,4 +108,17 @@ public class Companyjob implements Serializable {
         this.companyid = companyid;
     }
 
+    @Override
+    public String toString() {
+        return "Companyjob{" +
+                "id=" + id +
+                ", companyname='" + companyname + '\'' +
+                ", jobsummary='" + jobsummary + '\'' +
+                ", require='" + require + '\'' +
+                ", jobtype='" + jobtype + '\'' +
+                ", jobexperience='" + jobexperience + '\'' +
+                ", education='" + education + '\'' +
+                ", companyid=" + companyid +
+                '}';
+    }
 }

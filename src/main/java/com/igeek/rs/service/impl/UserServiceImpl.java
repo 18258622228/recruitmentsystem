@@ -1,5 +1,6 @@
 package com.igeek.rs.service.impl;
 
+import com.igeek.rs.entity.Admin;
 import com.igeek.rs.entity.User;
 import com.igeek.rs.dao.UserDao;
 import com.igeek.rs.service.UserService;
@@ -71,4 +72,11 @@ public class UserServiceImpl implements UserService {
     public boolean deleteById(Integer id) {
         return this.userDao.deleteById(id) > 0;
     }
+
+    public User login(User user) {
+        User u = userDao.findNameAndPwd(user);
+        return u;
+    }
+
+
 }

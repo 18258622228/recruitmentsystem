@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员登录</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .frame {
+            width: 385px;
+            height: 40px;
+            margin-left: 20px;
+            outline: none;
+            border:none;
+            box-shadow:0 0 0 20px white inset;
+        }
+        .sp{
+            width:385px;
+            height:3px;
+            background: linear-gradient(120deg, #3498ab, #8e44ad, #3498ab);
+            position: absolute;
+            z-index: 3;
+            transition:.5s;
+            background-size: 200%;
+            background-position: left;
+        }
+        /* 滑块验证 */
+        .drag {
+            width: 385px;
+            height: 40px;
+            line-height: 40px;
+            background-color: #e8e8e8;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .bg {
+            width: 40px;
+            height: 100%;
+            position: absolute;
+            background-color: #75CDF9;
+        }
+
+        .text {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            user-select: none;
+        }
+
+        .btn {
+            width: 40px;
+            height: 38px;
+            position: absolute;
+            border: 1px solid #ccc;
+            cursor: move;
+            font-family: "宋体";
+            text-align: center;
+            background-color: #fff;
+            user-select: none;
+            color: #666;
+        }
+
+        .log {
+            border-radius:7px;
+            margin-left: 20px;
+            text-align:center;
+            line-height:50px;
+            margin-top: 20px;
+            width: 385px;
+            height: 50px;
+            border: none;
+            background: linear-gradient(120deg, #3498ab, #8e44ad, #3498ab);
+            background-size: 200%;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        .log:hover {
+            background-position: right;
+        }
+        #mineCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+<div style="width:1900px; height:1000px">
+    <canvas id="mineCanvas"></canvas>
+    <img src="/img/reg.png"
+         style="width: 1900px; height:1000px;position: absolute; z-index: 1">
+    <form th:action="@{/admin/login}" method="post" id="f">
+
+        <div style="background-color: white; width: 440px; height: 450px; border-radius: 15px; position: absolute; z-index: 2; margin-left: 750px; margin-top: 150px"
+             id="m1">
+
+            <div style="margin-top: 20px; width: 440px; height: 50px;">
+                <p style="float:left;font-size: 20px; color:#0669CE; margin-left: 150px;line-height: 50px;cursor: pointer;"
+                   id="c1">管理员登录</p>
+            </div>
+
+            <!--登录div-->
+            <div style="width: 440px; height: 270px;">
+
+                <input type="text" placeholder="请输入管理员名" class="frame" id="username" name="username" style="text-indent: 10px;float: left;margin-top:30px;">
+                <div class="sp" style="margin-top: 70px;margin-left: 20px"></div>
+                <div style="width:440px;height:30px;float: left;">
+                    <p style="width:440px;height:40px;color:red;float: left;line-height: 40px;margin-left: 20px;font-size: 10px;display:none"
+                       id="p1">&#10006请输入管理员名</p>
+                </div>
+                <input type="password"
+                       placeholder="请输入密码" class="frame" id="password" name="password"
+                       style="text-indent: 10px;float:left;margin-top:20px">
+                <div class="sp" style="margin-top: 160px;margin-left: 20px"></div>
+                <div style="width:440px;height:30px;float: left;">
+                    <p style="width:440px;height:40px;color:red;float: left;line-height: 40px;margin-left: 20px;font-size: 10px;display:none"
+                       id="p2">&#10006请输入密码</p>
+                </div>
+                <!-- 滑块验证 -->
+                <div class="drag" style="float: left;margin-left: 20px;margin-top: 20px">
+                    <div class="bg"></div>
+                    <div class="text">请拖动滑块验证</div>
+                    <div class="btn">&gt;&gt;</div>
+                </div>
+                <div style="width:440px;height:40px;float: left;">
+                    <p style="width:440px;height:40px;color:red;float: left;line-height: 40px;margin-left: 20px;font-size: 10px;display:none"
+                       id="p3">&#10006请滑动验证</p>
+                </div>
+            </div>
+            <div style="width: 420px; height: 170px;"  id="but1">
+                <div class="log" id="load"
+                     onclick="load()">登&emsp;录
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <div style="width: 440px; color: white;bottom: 0;margin-left: 755px;position: absolute; z-index: 3">
+        Copyright © 2020 zhipin.com 京ICP备14013441号-5</div>
+</div>
+<script src="/js/login/index.js"></script>
+<script src="/js/login/YZ.js"></script>
+<script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#username").focus(function () {
+            $(".sp:eq(2)").css("background-position","right");
+        })
+        $("#username").blur(function () {
+            $(".sp:eq(2)").css("background-position","left");
+            var user=$("#username").val();
+            if(user == "" || user == null){
+                $("#p1").css("display","block");
+            }else{
+                $("#p1").css("display","none");
+            }
+        })
+        $("#password").focus(function () {
+            $(".sp:eq(3)").css("background-position","right");
+        })
+        $("#password").blur(function () {
+            $(".sp:eq(3)").css("background-position","left");
+            var pass=$("#password").val();
+            if(pass == "" || pass == null){
+                $("#p2").css("display","block");
+            }else{
+                $("#p2").css("display","none");
+            }
+        })
+    })
+    function load() {
+        var user=$("#username").val();
+        var pass=$("#password").val();
+        if(success){
+            $("#p3").css("display","none");
+            if((user == ""|| user == null ) && (pass == "" || pass == null)){
+                alert("失败")
+            }else{
+                $("#f").submit();
+            }
+        } else {
+            $("#p3").css("display","block");
+        }
+    }
+
+</script>
+</body>
+</html>

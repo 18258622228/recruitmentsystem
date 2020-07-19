@@ -13,8 +13,8 @@
     <select id="queryById" resultMap="PersoninfoMap">
         select
           id, userId, jobId, companyId
-        from recruitmentsystem.personinfo
-        where id = #{id}
+        from personinfo
+        where jobid = #{id}
     </select>
 
     <!--查询指定行数据-->
@@ -29,7 +29,7 @@
     <select id="queryAll" resultMap="PersoninfoMap">
         select
           id, userId, jobId, companyId
-        from recruitmentsystem.personinfo
+        from personinfo
         <where>
             <if test="id != null">
                 and id = #{id}
@@ -46,9 +46,10 @@
         </where>
     </select>
 
+    <!-- useGeneratedKeys="true"把新增加的主键赋值到自己定义的keyProperty（id）中 -->
     <!--新增所有列-->
     <insert id="insert" keyProperty="id" useGeneratedKeys="true">
-        insert into recruitmentsystem.personinfo(userId, jobId, companyId)
+        insert into personinfo(userId, jobId, companyId)
         values (#{userid}, #{jobid}, #{companyid})
     </insert>
 
@@ -71,7 +72,9 @@
 
     <!--通过主键删除-->
     <delete id="deleteById">
-        delete from recruitmentsystem.personinfo where id = #{id}
+        delete from personinfo where id = #{id}
     </delete>
+
+
 
 </mapper>

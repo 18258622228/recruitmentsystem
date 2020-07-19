@@ -2,9 +2,12 @@ package com.igeek.rs.controller;
 
 import com.igeek.rs.entity.Companyjob;
 import com.igeek.rs.service.CompanyjobService;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * (Companyjob)表控制层
@@ -12,7 +15,7 @@ import javax.annotation.Resource;
  * @author makejava
  * @since 2020-07-15 14:54:56
  */
-@RestController
+@Controller
 @RequestMapping("companyjob")
 public class CompanyjobController {
     /**
@@ -30,6 +33,30 @@ public class CompanyjobController {
     @GetMapping("selectOne")
     public Companyjob selectOne(Integer id) {
         return this.companyjobService.queryById(id);
+    }
+
+
+    //查看该用户所有的申请
+    @GetMapping("/show")
+    @ResponseBody
+    public  List<Companyjob> showApplication(Integer uid){
+        if(uid ==null){
+            return null;
+        }
+        List<Companyjob> list = companyjobService.showApplication(uid);
+        return  list;
+    }
+
+
+    //点击查询所有
+    @GetMapping("/searchAll")
+    @ResponseBody
+    public List<Companyjob> searchAll(String query){
+        List<Companyjob> searchAll = companyjobService.searchAll(query);
+        for (Companyjob companyjob : searchAll) {
+            System.out.println(companyjob);
+        }
+        return searchAll;
     }
 
 }

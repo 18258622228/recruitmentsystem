@@ -1,6 +1,7 @@
 package com.igeek.rs.dao;
 
 import com.igeek.rs.entity.Companyuser;
+import com.igeek.rs.entity.User;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
@@ -62,4 +63,9 @@ public interface CompanyuserDao {
      */
     int deleteById(Integer id);
 
+    /**
+     * 登录
+     * @return
+     */
+    Companyuser findNameAndPwd(Companyuser user);
 }

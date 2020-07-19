@@ -1,6 +1,7 @@
 package com.igeek.rs.dao;
 
 import com.igeek.rs.entity.Companyjob;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
@@ -10,7 +11,15 @@ import java.util.List;
  * @author makejava
  * @since 2020-07-15 14:54:56
  */
+@Mapper
 public interface CompanyjobDao {
+
+    //通过useid查询所有申请
+    List<Companyjob> showApplication(Integer uid);
+
+    //模糊查询
+    List<Companyjob> searchAll(String query);
+
 
     /**
      * 通过ID查询单条数据

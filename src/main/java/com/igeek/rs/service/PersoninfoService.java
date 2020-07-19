@@ -1,5 +1,6 @@
 package com.igeek.rs.service;
 
+import com.igeek.rs.entity.Companyjob;
 import com.igeek.rs.entity.Personinfo;
 import java.util.List;
 
@@ -34,7 +35,7 @@ public interface PersoninfoService {
      * @param personinfo 实例对象
      * @return 实例对象
      */
-    Personinfo insert(Personinfo personinfo);
+    Integer insert(Personinfo personinfo);
 
     /**
      * 修改数据
@@ -51,5 +52,8 @@ public interface PersoninfoService {
      * @return 是否成功
      */
     boolean deleteById(Integer id);
+
+    //通过实体作为筛选条件查询
+    List<Personinfo> queryAll(Personinfo personinfo);
 
 }

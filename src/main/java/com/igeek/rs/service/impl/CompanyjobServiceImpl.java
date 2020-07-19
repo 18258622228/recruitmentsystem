@@ -14,10 +14,25 @@ import java.util.List;
  * @author makejava
  * @since 2020-07-15 14:54:56
  */
-@Service("companyjobService")
+@Service
 public class CompanyjobServiceImpl implements CompanyjobService {
     @Resource
     private CompanyjobDao companyjobDao;
+
+    //通过uid查询所有申请
+    @Override
+    public List<Companyjob> showApplication(Integer uid) {
+        return companyjobDao.showApplication(uid);
+    }
+
+    //模糊查询
+    @Override
+    public List<Companyjob> searchAll(String query) {
+        if(query==null){
+            query="";
+        }
+        return companyjobDao.searchAll(query);
+    }
 
     /**
      * 通过ID查询单条数据
@@ -76,4 +91,6 @@ public class CompanyjobServiceImpl implements CompanyjobService {
     public boolean deleteById(Integer id) {
         return this.companyjobDao.deleteById(id) > 0;
     }
+
+
 }

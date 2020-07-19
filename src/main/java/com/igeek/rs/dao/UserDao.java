@@ -1,5 +1,6 @@
 package com.igeek.rs.dao;
 
+import com.igeek.rs.entity.Admin;
 import com.igeek.rs.entity.User;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
@@ -61,5 +62,11 @@ public interface UserDao {
      * @return 影响行数
      */
     int deleteById(Integer id);
+
+    /**
+     * 登录
+     * @return
+     */
+    User findNameAndPwd(User user);
 
 }
